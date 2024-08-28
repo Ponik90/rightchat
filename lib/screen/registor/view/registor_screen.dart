@@ -42,14 +42,14 @@ class _RegistorScreenState extends State<RegistorScreen> {
             ),
             const SizedBox(height: 20),
             ElevatedButton(onPressed: () async {
-              Get.offAllNamed('home');
+              Get.offAllNamed('/');
 
             },
               child: const Text('Sign Up'),
             ),
             const SizedBox(height: 20),
             TextButton(onPressed: (){
-              Get.offAllNamed('login');
+              Get.offAllNamed('home');
             }, child: const Text("Already have an account? Sign In"),)
           ],
         ),
