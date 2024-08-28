@@ -5,9 +5,9 @@ import 'package:shubham4338/screen/registor/view/registor_screen.dart';
 import 'package:shubham4338/screen/splash/view/splash_screen.dart';
 
 Map<String,WidgetBuilder> routes_spp={
-  '/':(context)=>const SplashScreen(),
-  'home':(context)=>const HomeScreen(),
-  'login':(context)=>const LoginScreen(),
+  'home':(context)=>const SplashScreen(),
+  '/':(context)=>const HomeScreen(),
+  '/':(context)=>const LoginScreen(),
   '/register':(context)=>const RegistorScreen(),
 
 };
